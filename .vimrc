@@ -95,3 +95,8 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+"Key Bindings
+map <left> <Nop>
+map <right> <Nop>
+map <up> ddkP
+map <down> ddjP
